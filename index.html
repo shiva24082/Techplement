@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechPlement - Online Courses</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo animate__animated animate__fadeInLeft">
+          <h1>Tech<span>Plement</span></h1>
+        </div>
+        <nav>
+          <ul id="mobileMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="mobile-auth">
+              <button class="login">Login</button>
+              <button class="signup">Sign Up</button>
+            </div>
+          </ul>
+          <div class="mobile-menu" id="menuToggle">
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="auth-buttons desktop-auth">
+          <button class="login">Login</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content animate__animated animate__fadeIn">
+          <h1>Learn New Skills Online With TechPlement</h1>
+          <p>
+            Discover the best courses from top instructors around the world.
+            Grow your skills today.
+          </p>
+          <div class="search-bar">
+            <input type="text" placeholder="Search for courses..." />
+            <button><i class="fas fa-search"></i> Search</button>
+          </div>
+          <div class="hero-bubbles">
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+          </div>
+        </div>
+        <div class="hero-image animate__animated animate__fadeInRight">
+          <img src="images/hero-image.png" alt="Online Learning" />
+          <div class="floating-elements">
+            <div class="float-icon html"><i class="fab fa-html5"></i></div>
+            <div class="float-icon css"><i class="fab fa-css3-alt"></i></div>
+            <div class="float-icon js"><i class="fab fa-js"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+      <div class="container">
+        <h2 class="animate__animated animate__fadeInUp">Popular Courses</h2>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">
+          Browse our most popular courses
+        </p>
+        <div class="course-grid"></div>
+        <button
+          class="view-all animate__animated animate__fadeInUp animate__delay-2s"
+        >
+          View All Courses
+        </button>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="animate__animated animate__fadeInUp">
+          Why Choose TechPlement?
+        </h2>
+        <div class="features-grid">
+          <div class="feature animate__animated animate__fadeInUp">
+            <div class="feature-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Expert Instructors</h3>
+            <p>Learn from industry experts with real-world experience.</p>
+          </div>
+          <div
+            class="feature animate__animated animate__fadeInUp animate__delay-1s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Certification</h3>
+            <p>Get certified upon completion of your courses.</p>
+          </div>
+          <div
+            class="feature animate__animated animate__fadeInUp animate__delay-2s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Lifetime Access</h3>
+            <p>Access your courses anytime, anywhere, forever.</p>
+          </div>
+          <div
+            class="feature animate__animated animate__fadeInUp animate__delay-3s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h3>24/7 Support</h3>
+            <p>Our team is always ready to help you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="animate__animated animate__fadeInUp">
+          What Our Students Say
+        </h2>
+        <div class="testimonial-slider animate__animated animate__fadeIn">
+          <div class="testimonial active">
+            <p>
+              "TechPlement helped me switch careers into web development. The
+              courses are comprehensive and the instructors are amazing!"
+            </p>
+            <div class="student">
+              <img src="images/student1.jpg" alt="Student" />
+              <div>
+                <h4>Sarah Johnson</h4>
+                <span>Web Developer</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              "I've taken several courses here and each one has exceeded my
+              expectations. Highly recommended!"
+            </p>
+            <div class="student">
+              <img src="images/student1.jpg" alt="Student" />
+              <div>
+                <h4>Michael Chen</h4>
+                <span>Data Scientist</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              "The mobile-friendly platform makes it so easy to learn on the go.
+              I've learned so much in just a few months."
+            </p>
+            <div class="student">
+              <img src="images/student1.jpg" alt="Student" />
+              <div>
+                <h4>Emily Rodriguez</h4>
+                <span>UX Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container animate__animated animate__fadeIn">
+        <h2>Ready to Start Learning?</h2>
+        <p>
+          Join thousands of students advancing their careers with TechPlement
+        </p>
+        <button class="cta-button pulse-animate">Get Started Now</button>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about animate__animated animate__fadeInLeft">
+            <h3>TechPlement</h3>
+            <p>
+              Empowering learners worldwide with high-quality online courses.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="footer-links animate__animated animate__fadeInUp">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+          <div
+            class="footer-links animate__animated animate__fadeInUp animate__delay-1s"
+          >
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact animate__animated animate__fadeInRight">
+            <h4>Contact Us</h4>
+            <p><i class="fas fa-envelope"></i> contact@techplement.com</p>
+            <p><i class="fas fa-phone"></i> +91 8669893192</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Chatrapati Maharashtra
+              431001
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 TechPlement. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
